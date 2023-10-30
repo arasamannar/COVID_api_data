@@ -1,0 +1,53 @@
+/* general */
+body{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.Container {
+    margin: 50px auto 150px auto;
+    padding: 10px 20px 20px 20px;
+    border: 1px solid darkgray;
+    border-radius: 50px;
+    width: 40%;
+    min-width: 500px;
+    height: 20%;
+}
+.text-center{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+.marginTopBottom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.covidInput {
+    display: flex;
+    justify-content: center;
+    line-height: 2;
+}
+#countries {
+    margin-left: 20px;
+    width: 30%;
+    color: black;
+}
+.mySeparator {
+    height: 0.5px;
+    width: 80%;
+    background-color: whitesmoke;
+}
+.form-control{
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 2rem;
+    margin-top: 15px;
+}
